@@ -21,7 +21,7 @@ abstract: "Existing approaches for Structure from Motion (SfM) produce
   generalizability and scalability of geometry-based sparse SfM. Our dataset can
   be obtained at
   https://github.com/amazon-research/small-baseline-camera-tracking."
-slides: example
+slides: ""
 url_pdf: ""
 publication_types:
   - "1"
@@ -34,22 +34,21 @@ publication: In *IEEE Conference on Computer Vision and Pattern Recognition*
 summary: ""
 url_dataset: ""
 url_project: ""
-publication_short: In *CVPR*'22
+publication_short: ""
 url_source: ""
 url_video: ""
 title: Depth-Guided Sparse Structure-from-Motion for Movies and TV Shows
-doi: ""
+doi: https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Depth-Guided_Sparse_Structure-From-Motion_for_Movies_and_TV_Shows_CVPR_2022_paper.pdf
 featured: true
 tags: []
-projects:
-  - example
+projects: []
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
   focal_point: ""
   preview_only: false
-date: 2013-07-01T00:00:00Z
+date: 2013-07-01T00:00:00.000Z
 url_slides: ""
-publishDate: 2017-01-01T00:00:00Z
+publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
