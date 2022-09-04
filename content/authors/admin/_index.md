@@ -19,7 +19,7 @@ social:
     link: https://scholar.google.com/citations?user=2kSyD_EAAAAJ&hl=en
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/sheng-liu-03b69a130/
 organizations:
   - name: Amazon (Prime Video)
 education:
