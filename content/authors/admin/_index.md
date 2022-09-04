@@ -11,7 +11,7 @@ interests:
 social:
   - display:
       header: false
-    link: sliu66@buffalo.edu
+    link: /#contact
     icon_pack: far
     icon: envelope
   - icon: graduation-cap
