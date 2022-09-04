@@ -13,7 +13,7 @@ social:
       header: false
     link: sliu66@buffalo.edu
     icon_pack: far
-    icon: envelop
+    icon: envelope
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.com/citations?user=2kSyD_EAAAAJ&hl=en
