@@ -1,79 +1,57 @@
 ---
-title: 'An example conference paper'
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
+abstract: "Existing approaches for Structure from Motion (SfM) produce
+  impressive 3-D reconstruction results especially when using imagery captured
+  with large parallax. However, to create engaging video-content in movies and
+  TV shows, the amount by which a camera can be moved while filming a particular
+  shot is often limited. The resulting small-motion parallax between video
+  frames makes standard geometry-based SfM approaches not as effective for
+  movies and TV shows. To address this challenge, we propose a simple yet
+  effective approach that uses single-frame depth-prior obtained from a
+  pretrained network to significantly improve geometry-based SfM for our
+  small-parallax setting. To this end, we first use the depth-estimates of the
+  detected keypoints to reconstruct the point cloud and camera-pose for initial
+  two-view reconstruction. We then perform depth-regularized optimization to
+  register new images and triangulate the new points during incremental
+  reconstruction. To comprehensively evaluate our approach, we introduce a new
+  dataset (StudioSfM) consisting of 130 shots with 21K frames from 15
+  studio-produced videos that are manually annotated by a professional CG
+  studio. We demonstrate that our approach: (a) significantly improves the
+  quality of 3-D reconstruction for our small-parallax setting, (b) does not
+  cause any degradation for data with large-parallax, and (c) maintains the
+  generalizability and scalability of geometry-based sparse SfM. Our dataset can
+  be obtained at
+  https://github.com/amazon-research/small-baseline-camera-tracking."
+slides: example
+url_pdf: ""
+publication_types:
+  - "1"
 authors:
   - admin
-  - Robert Ford
-
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-doi: ''
-
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ['1']
-
-# Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
-tags: []
-
-# Display this page in the Featured widget?
+  - Xiaohan Nie
+  - Raffay Hamid
+author_notes: []
+publication: In *IEEE Conference on Computer Vision and Pattern Recognition*
+summary: ""
+url_dataset: ""
+url_project: ""
+publication_short: In *CVPR*'22
+url_source: ""
+url_video: ""
+title: Depth-Guided Sparse Structure-from-Motion for Movies and TV Shows
+doi: ""
 featured: true
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
+tags: []
 projects:
   - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+image:
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+  focal_point: ""
+  preview_only: false
+date: 2013-07-01T00:00:00Z
+url_slides: ""
+publishDate: 2017-01-01T00:00:00Z
+url_poster: ""
+url_code: ""
 ---
 
 {{% callout note %}}
