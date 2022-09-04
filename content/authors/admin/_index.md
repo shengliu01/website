@@ -1,6 +1,7 @@
 ---
 title: Sheng Liu
 role: Applied Scientist
+avatar_filename: sheng.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
