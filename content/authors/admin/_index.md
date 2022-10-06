@@ -6,7 +6,7 @@ bio: My research interest includes vision and language, 3D computer vision and
   video understanding.
 interests:
   - Vision and Language
-  - 3D Computer Vision
+  - Geometric Computer Vision
   - Video Understanding
 social:
   - display:
